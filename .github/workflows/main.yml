@@ -10,7 +10,7 @@ on:
   # This command allows us to run the Action automatically from the Actions tab.
   workflow_dispatch:
   
-  # Also run on every push on the master branch
+  # Also run on every push on the main branch
   push:
     branches:
     - main
@@ -19,6 +19,10 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
+    # Allow GITHUB_TOKEN to publish animations to the output branch.
+    permissions:
+      contents: write
+
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
