@@ -9,7 +9,7 @@
 <br/>
 
 <div align="center">
-🔭 I'm currently working on **Literature Map**
+🔭 I'm currently working on Literature Map.
   
 🌱 I'm currently diving into **AWS serverless architecture, AI/ML model integration**, and studying for the **AWS Certified Cloud Practitioner exam**.
 
